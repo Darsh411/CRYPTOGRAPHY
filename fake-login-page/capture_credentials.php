@@ -9,7 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fclose($file);
     
     // Redirect to the actual login page or show an error
-    header("Location: https://real-login-page.com");
-    exit();
+    header("Location: http://localhost:8000/login_successful.html");
+
+    //exit();
 }
 
